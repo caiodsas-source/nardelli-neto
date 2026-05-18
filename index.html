@@ -181,9 +181,9 @@
   .acc-body {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.4s ease;
+    transition: max-height 0.01s ease;
   }
-  .acc.open .acc-body { max-height: 1000px; }
+  .acc.open .acc-body { max-height: 9999px; }
   .acc-inner {
     padding: 0 18px 22px;
   }
@@ -488,7 +488,7 @@
   <h2 class="section-heading reveal reveal-delay-1">Descubra se você tem direito a um benefício</h2>
 
   <!-- PREVIDENCIÁRIO -->
-  <div class="acc open reveal reveal-delay-2">
+  <div class="acc open">
     <div class="acc-header" onclick="toggle(this)">
       <div>
         <div class="acc-title">Previdenciário</div>
@@ -515,7 +515,7 @@
   </div>
 
   <!-- TRABALHISTA -->
-  <div class="acc reveal reveal-delay-2">
+  <div class="acc open">
     <div class="acc-header" onclick="toggle(this)">
       <div>
         <div class="acc-title">Trabalhista</div>
@@ -540,7 +540,7 @@
   </div>
 
   <!-- CÍVEL -->
-  <div class="acc reveal reveal-delay-3">
+  <div class="acc open">
     <div class="acc-header" onclick="toggle(this)">
       <div>
         <div class="acc-title">Cível</div>
